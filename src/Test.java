@@ -17,9 +17,6 @@ public class Test {
         int b = a;
         b++;
 
-        System.out.println(b);
-        System.out.println(b % 2);
-
         if((b % 2) != 0) {
             System.out.println("true, b is an odd number");
         }
